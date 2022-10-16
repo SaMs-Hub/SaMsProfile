@@ -1,0 +1,83 @@
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 5rem;
+  bottom: 0;
+}
+
+.socialMedia a {
+  text-decoration: none;
+  color: var(--slate);
+  font-size: 2rem;
+  cursor: pointer;
+  margin-top: 3rem;
+  transition: 0.2s ease-in-out;
+}
+
+.socialMedia a:hover {
+  transform: translateY(-1rem) scale(1.1);
+  color: var(--aqua);
+}
+
+.socialLine {
+  height: 10rem;
+  width: 1.5px;
+  background-color: var(--slate);
+  margin-left: 0.9em;
+  margin-top: 2rem;
+}
+
+/* SocialEmail.js */
+.socialEmail {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 5rem;
+  bottom: 0;
+}
+
+.socialEmail a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--slate);
+  letter-spacing: 2px;
+  writing-mode: vertical-lr;
+  transition: 0.2s ease-in-out;
+}
+
+.socialEmail a:hover {
+  transform: translateY(-1rem) scale(1.1);
+  color: var(--aqua);
+}
+
+.emailLine {
+  height: 10rem;
+  width: 1.5px;
+  background-color: var(--slate);
+  margin-left: 0.7rem;
+  margin-top: 2rem;
+}
+
+/* for Tablets */
+@media screen and (max-width: 768px) {
+  .socialMedia {
+    left: 1rem;
+  }
+
+  .socialEmail {
+    right: 1rem;
+  }
+}
+
+/* for Smart Phones  */
+@media screen and (max-width: 480px) {
+  .socialMedia {
+    display: none;
+  }
+
+  .socialEmail {
+    display: none;
+  }
+}

@@ -1,0 +1,54 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_left {
+  width: 60%;
+}
+
+.about_left p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+  text-align: justify;
+  color: var(--slate);
+  text-indent: 3rem;
+}
+
+.about_left p span {
+  color: var(--aqua);
+}
+
+.about_right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_right img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* for Tablets */
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about_left {
+    width: 100%;
+  }
+
+  .about_right {
+    width: 100%;
+  }
+}
+
+/* for Smart Phones  */
+@media screen and (max-width: 480px) {
+}

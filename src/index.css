@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --dark-navy: #020c1a;
+  --navy: #0a192f;
+  --light-navy: #112240;
+  --lightest-navy: #1a2840;
+  --dark-slate: #8892b1;
+  --slate: #a8b2d2;
+  --light-slate: #ccd6f3;
+  --aqua: #64ffda;
+  --aqua-light: #64ffdb28;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--navy);
+}
+
+.section {
+  width: 80vw;
+  min-height: 100vh;
+  margin: 5rem auto;
+  overflow: hidden;
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid green; */
+}
+
+.button,
+.linkButton {
+  width: 200px;
+  padding: 1.5rem 0rem;
+  border: 2px solid var(--aqua);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--light-slate);
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+}
+
+.button:active,
+.linkButton:active {
+  transform: scale(1.1);
+}
+
+.button:hover,
+.linkButton:hover {
+  background-color: var(--aqua-light);
+}
+
+.section_heading {
+  margin-bottom: 5rem;
+}
+
+.section_heading h1 {
+  color: var(--light-slate);
+  font-weight: bold;
+  font-size: 4rem;
+  position: relative;
+  text-align: center;
+}
+
+.section_heading h1::after {
+  content: "";
+  height: 0.5px;
+  background-color: var(--dark-slate);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -2;
+}
+
+.section_heading h1 span {
+  background-color: var(--navy);
+  padding: 0 2rem;
+}
+
+/* for Tablets */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .button {
+    width: 180px;
+  }
+
+  .section {
+    height: auto;
+    overflow: hidden;
+  }
+}
+
+/* for Smart Phones  */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+
+  .button {
+    width: 150px;
+  }
+
+  .section {
+    padding-top: 3rem;
+    width: 90vw;
+  }
+}

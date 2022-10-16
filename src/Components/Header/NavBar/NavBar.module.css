@@ -1,0 +1,93 @@
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav ul li {
+  list-style-type: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: var(--light-slate);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.nav ul li a:hover {
+  background-color: var(--aqua);
+  color: var(--dark-navy);
+}
+
+.nav ul li a:active {
+  color: var(--aqua);
+}
+
+.nav ul li a.active {
+  border-bottom: 3px solid var(--aqua);
+}
+
+.nav ul li a i {
+  color: var(--light-slate);
+  font-size: 3rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-weight: bolder;
+  transition: 0.3s ease;
+  display: none;
+}
+
+.nav ul li a:hover i {
+  background-color: var(--aqua);
+  color: var(--dark-navy);
+}
+
+.nav ul li a i:active {
+  color: var(--aqua);
+}
+
+.nav ul li a.active i {
+  background-color: var(--aqua);
+  color: var(--dark-navy);
+}
+
+/* for Tablets */
+@media screen and (max-width: 768px) {
+  .nav ul li a {
+    font-size: 1.4rem;
+    margin: 0.5rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+/* for Smart Phones  */
+@media screen and (max-width: 480px) {
+  .nav {
+    width: 100%;
+  }
+  .nav ul {
+    justify-content: space-around;
+  }
+
+  .nav ul li a:hover {
+    background-color: transparent;
+  }
+
+  .nav ul li a.active {
+    border-bottom: none;
+  }
+
+  .nav ul li a i {
+    display: flex;
+  }
+
+  .nav ul li a span {
+    display: none;
+  }
+}
