@@ -20,8 +20,8 @@ const PROJECTS_DATA = [
       "My personal portfolio website which showcase all of  Me, My Skills, My Work, My Contact Information, etc. ",
     toolsUsed: "React, CSS, JSX",
     icon: <CgProfile />,
-    githubLink: "https://github.com/SaMsProfile",
-    liveLink: "https://sams-hub-profile.netlify.app/",
+    githubLink: "https://github.com/SaMs-Hub/SaMsProfile",
+    liveLink: "https://sams-hub-profile.netlify.app",
   },
   {
     id: 2,
