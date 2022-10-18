@@ -71,7 +71,7 @@ const PROJECTS_DATA = [
 
     description:
       "Feedify is a React JS based rating website, where the user can give a feedback to app along with ratings from 1 to 10",
-    toolsUsed: "HTML, CSS, JavaScript",
+    toolsUsed: "ReactJS, JSX, CSS",
     icon: <MdDynamicFeed />,
 
     githubLink: "https://github.com/SaMs-Hub/Feedify",
