@@ -2,7 +2,7 @@ import React from "react";
 import Styles from "./About.module.css";
 
 
-import ProfilePic from "../../assets/ProfilePic.jpg";
+import Pic2 from "../../assets/Pic2.jpg";
 
 const About = () => {
   return (
@@ -34,7 +34,7 @@ const About = () => {
         </div>
 
         <div className={Styles.about_right}>
-          <img src={ProfilePic} alt="Shafi Khan" />
+          <img src={Pic2} alt="Shafi Khan" />
         </div>
       </div>
     </section>

@@ -4,6 +4,7 @@ import { CgProfile } from "react-icons/cg";
 import { IoMdContacts } from "react-icons/io";
 import { MdDynamicFeed } from "react-icons/md";
 import { MdOutlineLocalMovies } from "react-icons/md";
+
 import { RiNewspaperLine } from "react-icons/ri";
 import { BsCart4 } from "react-icons/bs";
 import { FaCalculator } from "react-icons/fa";
@@ -25,15 +26,16 @@ const PROJECTS_DATA = [
   },
   {
     id: 2,
-    title: "Convvey",
-    category: "others",
+    title: "SaMs Crypto",
+    category: "react",
     showOnHome: true,
 
     description:
-      "Convvey is an Social Media Webapp where a User can post different articles, view his friends, like and comment on their posts etc",
-    toolsUsed: "NodeJS, MongoDB, ExpressJS, SCSS",
-    icon: <IoMdContacts />,
-    githubLink: "https://github.com/SaMs-Hub/Convvey",
+      "SaMs crypto is a web app that display latest information for your favorite crypto currency",
+    toolsUsed: "ReactJS, Material UI, Firebase",
+    icon: <CgProfile />,
+    githubLink: "https://github.com/SaMs-Hub/SaMsCrypto",
+    liveLink: "https://sams-crypto.netlify.app/",
 
   },
   {
@@ -43,17 +45,17 @@ const PROJECTS_DATA = [
     showOnHome: true,
 
     description:
-      "Cinemango is an React and Redux based Web App. It is an Movie listing app with features such as adding Favourites and showing them in a separate section",
+      "Cinemango is an React based movie listing app with features such as adding Favourites and showing them in a separate section",
     toolsUsed: "ReactJS, Redux, JSX",
     icon: <MdOutlineLocalMovies />,
-    githubLink: "https://github.com/SaMs-Hub/Cinemango",
-    liveLink: "https://sams-hub.github.io/Cinemango/",
+    githubLink: "https://github.com/SaMs-Hub/Cinemango_By_SaM",
+    liveLink: "https://cinemango.netlify.app/",
   },
   {
     id: 4,
     title: "SimList",
     category: "others",
-    showOnHome: true,
+
 
     description:
       "SimList is an NodeJS based Contacts Book where the User can Add, delete and Update the Contact he/she requires ",
@@ -118,6 +120,19 @@ const PROJECTS_DATA = [
 
     githubLink: "https://github.com/SaMs-Hub/CalC",
     liveLink: "https://sams-hub.github.io/CalC/",
+  },
+  {
+    id: 9,
+    title: "Convvey",
+    category: "others",
+    showOnHome: true,
+
+    description:
+      "Convvey is an Social Media Webapp where a User can post different articles, view his friends, like and comment on their posts etc",
+    toolsUsed: "NodeJS, MongoDB, ExpressJS, SCSS",
+    icon: <IoMdContacts />,
+    githubLink: "https://github.com/SaMs-Hub/Convvey",
+
   },
 
 ];

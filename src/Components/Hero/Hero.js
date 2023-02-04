@@ -16,8 +16,8 @@ const Hero = () => {
           <h2>I Write Code for Internet. </h2>
           <p>
             A Software Developer with a strong Foundation in Technology and
-            Frameworks of today's Standards like <span>React</span>, <span>Node</span>,
-            <span> JavaScript</span>, etc. <br /> <br /> I heartily enjoy
+            Frameworks of today's Standards like  <span> JavaScript</span>, <span>React</span>, <span>React Native</span>, <span>Node</span>,
+            , etc. <br /> <br /> I heartily enjoy
             Building websites and web applications with attention to detail
           </p>
 

@@ -82,6 +82,7 @@ const Skills = () => {
               <li>Material UI</li>
 
               <li>Github</li>
+              <li>RNUI</li>
 
             </div>
           </div>
