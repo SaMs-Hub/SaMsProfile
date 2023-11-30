@@ -16,7 +16,7 @@ const Skills = () => {
             <div>
               <label htmlFor="JavaScript">JavaScript</label>
               <div className={Styles.range_background}>
-                <div style={{ width: "88%" }}></div>
+                <div style={{ width: "97%" }}></div>
               </div>
             </div>
             <div>
@@ -26,15 +26,15 @@ const Skills = () => {
               </div>
             </div>
             <div>
-              <label htmlFor="Python">Python</label>
+              <label htmlFor="Python">HTML/CSS</label>
               <div className={Styles.range_background}>
-                <div style={{ width: "60%" }}></div>
+                <div style={{ width: "95%" }}></div>
               </div>
             </div>
             <div>
               <label htmlFor="ReactJS">ReactJS</label>
               <div className={Styles.range_background}>
-                <div style={{ width: "85%" }}></div>
+                <div style={{ width: "90%" }}></div>
               </div>
             </div>
           </form>
@@ -43,7 +43,7 @@ const Skills = () => {
             <div>
               <label htmlFor="React Native">React Native</label>
               <div className={Styles.range_background}>
-                <div style={{ width: "65%" }}></div>
+                <div style={{ width: "85%" }}></div>
               </div>
             </div>
             <div>

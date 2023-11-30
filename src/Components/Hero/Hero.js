@@ -1,7 +1,7 @@
 import React from "react";
 import Styles from "./Hero.module.css";
 
-import ShafisResume from "../../assets/ShafisResume.pdf";
+import ShafisResume from "../../assets/Shafi'sResume.pdf";
 
 import heroPic from "../../assets/heroPic.gif";
 
@@ -15,9 +15,9 @@ const Hero = () => {
           <h1>Shafi Khan.</h1>
           <h2>I Write Code for Internet. </h2>
           <p>
-            A Software Developer with a strong Foundation in Technology and
+            A Frontend Engineer with a strong Foundation in Technology and
             Frameworks of today's Standards like  <span> JavaScript</span>, <span>React</span>, <span>React Native</span>, <span>Node</span>,
-            , etc. <br /> <br /> I heartily enjoy
+            etc. <br /> <br /> I heartily enjoy
             Building websites and web applications with attention to detail
           </p>
 

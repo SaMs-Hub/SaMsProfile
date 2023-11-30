@@ -1,7 +1,5 @@
 import React from "react";
 import Styles from "./About.module.css";
-
-
 import Pic2 from "../../assets/Pic2.jpg";
 
 const About = () => {
@@ -16,17 +14,17 @@ const About = () => {
       <div className={Styles.about}>
         <div className={Styles.about_left}>
           <p>
-            Hello World, I am Shafi Khan, a <span>Software Developer </span>
-            Living in Hyderabad, India. I describe myself as a passionate
+            Hello World, I am Shafi Khan, a <span>Software Engineer </span>
+            Based out of Hyderabad, India. I describe myself as a passionate
             developer who loves Coding and building websites.
           </p>
 
 
           <p>
             I'm a Techie with a Zeal to Develop Softwares to solve Real-World Problems!
-            I've keen interest in Startups and Developing Products that can make an beneficial impact over Peoples lives.
+            I've keen interest in Developing Products that can make an beneficial impact over Peoples lives.
             A Good Team player who believes <span>Consistency and Hardwork beats Talent</span>!
-            Loves to Read Productive Books and Playing AAA Titles to tackle boredom!!!
+            Love to Read Productive Books and Playing AAA Titles to tackle boredom!!!
 
           </p>
 
