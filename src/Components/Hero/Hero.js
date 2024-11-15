@@ -16,7 +16,7 @@ const Hero = () => {
           <h2>I Write Code for Internet. </h2>
           <p>
             A Frontend Engineer with a strong Foundation in Technology and
-            Frameworks of today's Standards like  <span> JavaScript</span>, <span>React</span>, <span>React Native</span>, <span>Node</span>,
+            Frameworks of today's Standards like  <span> JavaScript</span>, <span> Typescript</span>, <span>React</span>, <span> NextJS</span>, <span>React Native</span>
             etc. <br /> <br /> I heartily enjoy
             Building websites and web applications with attention to detail
           </p>
